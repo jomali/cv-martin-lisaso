@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+\begin{document}
+
+%
+%	TITLE AND CONTACT INFORMATION
+%
+
+\begin{minipage}[t]{0.6\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Martín Lisaso,}}}}}
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{José Francisco}}}}
+
+	\vspace{6pt}
+
+	{\huge Desarrollador \emph{front-end}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\icon{MapMarker}{12}{Santander, Cantabria}\\
+	\icon{Phone}{12}{+34 651 667 661}\\
+	\icon{At}{12}{\href{mailto:jfm.lisaso@gmx.com}{jfm.lisaso@gmx.com}}\\
+	\icon{Globe}{12}{\href{https://jomali.itch.io/}{jomali.itch.io}}\\
+	% \icon{Github}{12}{\href{https://github.com/jomali}{github.com/jomali}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%
+
+\cvsect{Presentación}
+
+\begin{minipage}[t]{0.45\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	Graduado en Ingeniería Informática por la Universidad de Cantabria. Durante mi etapa académica me interesé en el estudio de la desigualdad social observable en el seno de las TIC y la búsqueda de formas de acercar los computadores a personas con perfiles poco técnicos y/o con barreras de accesibilidad. Inclinaciones que han conducido mi carrera profesional hacia el desarrollo \emph{front-end}, con una preocupación especial en la experiencia de usuario.\\
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{100}
+		\baritem{React JS}{100}
+		% \baritem{React Native}{40}
+		\baritem{Git}{75}
+		\baritem{MySQL}{60}
+		\baritem{Java}{60}
+		\baritem{Spring}{35}
+	\end{barchart}
+\end{minipage}
+
+% \begin{center}
+% 	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+% \end{center}
+
+%
+%	EXPERIENCE
+%
+
+\cvsect{Experiencia}
+
+\begin{entrylist}
+	\entry
+		{8/2022 --\\ Actualidad}
+		{Desarrollador \emph{front-end}}
+		{Indra Producción Software S.L.}
+		{Integrado en equipo de desarrollo de un producto de gestión interna para \emph{Inditex}. Encargado de la redefinición y refactorización de partes de la arquitectura de la aplicación para corregir deuda técnica heredada de etapas iniciales del software. Participo además en el desarrollo de nuevas funcionalidades.\\ \texttt{JS}\slashsep\texttt{React}}
+	\entry
+		{12/2019 -- 7/2022}
+		{Desarrollador \emph{front-end}}
+		{SOINCON Soluciones Industriales de Conectividad S.L.}
+		{Desarrollador de \emph{front-end} principal en el software para gestión de RR.HH. \emph{Digital People}. He asumido además tareas de responsable de producto, ayudando a coordinar al resto del equipo de desarrollo y participando en la definición del \emph{roadmap} junto al equipo de dirección. También he ofrecido apoyo adicional en la gestión con cliente; asumiendo tareas de comunicación y soporte, toma de requisitos funcionales y formaciones. Desarrollo \emph{full stack} puntual en otros proyectos de menor envergadura.\\ \texttt{JS}\slashsep\texttt{React}\slashsep\texttt{Java}\slashsep\texttt{Spring}}
+	\entry
+		{10/2016 -- 5/2017}
+		{Desarrollador \emph{front-end}}
+		{CIC Consulting Informático de Cantabria S.L.}
+		{Trabajo con representación gráfica de datos para el software de monitorización y análisis \emph{IDbox}; implantado entre otros en las centrales nucleares de Almaraz, Trillo, Garoña o Bilibino, en Rusia. Formación interna en el desarrollo \emph{full stack} de aplicaciones web sobre ecosistemas Java.\\ \texttt{JS}\slashsep\texttt{D3.JS}\slashsep\texttt{Java}\slashsep\texttt{Spring}\slashsep\texttt{Vaadin}}
+	\entry
+		{3/2015 -- 9/2015}
+		{Prácticas como desarrollador web}
+		{La Refactoría S.L.}
+		{Incluyendo desarrollos a medida sobre la plataforma de compras por Internet \emph{PrestaShop}.\\ \texttt{PHP}\slashsep\texttt{JS}}
+\end{entrylist}
+
+%
+%	EDUCATION
+%
+
+\cvsect{Educación}
+
+\begin{entrylist}
+	\entry
+		{2010 -- 2019}
+		{Grado en Ingeniería Informática}
+		{Facultad de Ciencias. Universidad de Cantabria}
+		{Mención en Computación: computación teórica, algoritmos, lenguajes formales y gráficos por computador. Trabajo de fin de grado centrado en la inclusión social a través del entretenimiento electrónico titulado: \emph{Sistema software de ficción interactiva como fórmula de inclusión digital}.}
+\end{entrylist}
+
+%
+%	ADDITIONAL INFORMATION
+%
+
+\begin{minipage}[t]{0.35\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Idiomas}
+	
+	\textbf{Español} -- nativo\\
+	\textbf{Inglés} -- usuario independiente (nivel B2 acreditado a través de la Capacitación Lingüística de la Universidad de Cantabria)\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.6\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Aficiones y reconocimientos}
+
+	He creado algunos videojuegos de texto accesibles que han sido seleccionados para exposiciones como \emph{Ficción interactiva y juegos narrativos} de la Universidad de Granada (marzo de $2019$) o la muestra \emph{I Jam Cultura Abierta} organizada por la asociación DEV (Madrid, enero de $2019$). Fui miembro fundador de una asociación cultural: \emph{"Agrupación Escénica Unos Cuantos"} ($2012$ -- $2015$). Últimamente estudio asignaturas de un Grado en Filosofía en mis ratos libres.
+\end{minipage}
+% \hfill
+% \begin{minipage}[t]{0.3\textwidth}
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+% 	\cvsect{Reconocimientos}
+
+% 	He creado algunos videojuegos de texto accesibles, con los que he conseguido los siguientes reconocimientos: 2º premio en \emph{Hack2Progress} (V ed.) organizada por la Universidad de Cantabria y CIC (noviembre de 2019); selección para participar en las exposiciones \emph{Ficción interactiva y juegos narrativos} de la Universidad de Granada (marzo de 2019), y la muestra \emph{I Jam Cultura Abierta} organizada por la asociación DEV (Madrid, enero de 2019).
+% \end{minipage}
+
+\end{document}
